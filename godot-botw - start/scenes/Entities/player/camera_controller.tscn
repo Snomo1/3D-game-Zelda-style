@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://co8i7ukokrg7g"]
+
+[ext_resource type="Script" uid="uid://drgrksb1pl0eq" path="res://scenes/Entities/player/camera_controller.gd" id="1_k08qj"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_k08qj"]
+
+[node name="CameraController" type="SpringArm3D"]
+shape = SubResource("SphereShape3D_k08qj")
+spring_length = 4.0
+script = ExtResource("1_k08qj")
+limit_min_x = -1.0
+limit_max_x = -0.2
+
+[node name="Camera3D" type="Camera3D" parent="."]
+current = true
