@@ -1,3 +1,3 @@
 ## 🎮 World Design
 
-!(Godette/world design.jpg)
+!(screenshots/combat.jpg)
