@@ -1,3 +1,3 @@
 ## 🎮 World Design
 
-![World](Godette/world design.jpg)
+Godette/world design.jpg
